@@ -1,4 +1,4 @@
-//Author: reDragonCoder
+// Author: reDragonCoder 
 
 //LIBRARIES
 #include <stdio.h>
@@ -8,14 +8,15 @@
 #include <time.h>
 #include <windows.h>
 
+//NAMESPACE
 using namespace std;
 
 //MAIN
 int main(){
-    //RANDOM GENERATOR
+    //random seed generator
     srand(time(NULL));
 
-    //VARIABLES
+    //variables
     int length;
     char  *password=NULL, capital_letters, lowercase_letters, numbers, special_characters, option, character, anotherOne_SavedSettings='y', anotherOne_NotSavedSettings='y';
     
