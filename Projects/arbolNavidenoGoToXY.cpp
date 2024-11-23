@@ -1,4 +1,4 @@
-// Author: reDragonCoder 
+// Author: reDragonCoder & team
 
 //LIBRERIAS
 #include <stdio.h>
